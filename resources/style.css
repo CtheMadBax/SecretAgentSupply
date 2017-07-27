@@ -124,6 +124,10 @@ li {
   justify-content: space-between;
 }
 
+#sunglasses {
+  width: 30%;
+}
+
 #product-item img {
   margin: 2rem;
   height: 9rem;
@@ -186,4 +190,8 @@ li {
 
 .footer-text h3 {
   color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+
 }
