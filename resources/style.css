@@ -35,6 +35,9 @@ html {
   width: auto;
   justify-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 25rem;
 }
 
@@ -192,13 +195,57 @@ li {
   color: white;
 }
 
+.mobile-nav{
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
-  nav {
+  .menu-list {
     display: none;
   }
 
   .mobile-nav {
     display: block;
     text-align: center;
+  }
+
+  #sunglasses {
+    display: none;
+  }
+
+  #product-item {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .article-text-box {
+    margin-top: 10rem;
+    z-index: 1;
+  }
+
+  .article-text {
+    margin: 1rem 0 0 2rem;
+  }
+
+  .main-article {
+    height: 15rem;
+  }
+
+  #product-item {
+    width: 90%;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .location-hours-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .locations-hours {
+    width: 90%;
   }
 }
