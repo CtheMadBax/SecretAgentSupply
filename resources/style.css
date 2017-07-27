@@ -80,26 +80,93 @@ html {
 .menu {
   display: flex;
   width: auto;
-  background-color: firebrick;
   justify-content: center;
+  background-color: firebrick;
 }
 
 .menu-list {
   display: flex;
   width: 960px;
-  justify-content: center;
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
 }
 
 li {
   display: inline-flex;
   color: white;
   justify-content: space-between;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+}
+
+.product-list {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  width: 960px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#product-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  border: 4px solid black;
+  justify-content: space-between;
+}
+
+#product-item img {
+  margin: 2rem;
+  height: 9rem;
+}
+
+#product-item h3 {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  padding: 0.5rem 0;
+}
+
+.store-info {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.location-hours-container {
+  display: flex;
+  width: 960px;
+  justify-content: center;
+  align-items: center;
+}
+
+#locations-hours {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 35%;
+  margin-top: 3rem;
+}
+
+#locations-hours-text {
+  display: flex;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+  color: white;
 }
 
 .footer {
