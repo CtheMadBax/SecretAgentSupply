@@ -119,7 +119,7 @@ li {
   justify-content: space-between;
 }
 
-#product-item {
+.product-item {
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
@@ -131,12 +131,12 @@ li {
   width: 30%;
 }
 
-#product-item img {
+.product-item img {
   margin: 2rem;
   height: 9rem;
 }
 
-#product-item h3 {
+.product-item h3 {
   display: flex;
   justify-content: center;
   font-family: Helvetica;
@@ -213,11 +213,7 @@ li {
     display: none;
   }
 
-  #product-item {
-    width: 47%;
-  }
-
-  #watch {
+  .product-item {
     width: 47%;
   }
 }
@@ -245,7 +241,7 @@ li {
     height: 15rem;
   }
 
-  #product-item {
+  .product-item {
     width: 90%;
   }
 
